@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<a href="https://www.ejemplo.com"> la pagina</a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bienvenido</title>
+  <link rel="stylesheet" href="s.css"/>
+</head>
+<body>
+  <header>
+    <h1>Proyecto</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+  <section id="inicio" class="hero">
+    <div style="text-align: center;">
+  <img src="andy.jpg" alt="Imagen centrada"heigth="80" width="120"></div>
+
+    <a href="#portafolio" class="btn">Ver Portafolio</a>
+
+  </section>
+   <h1>Bienvenido</h1>
+  <section id="portafolio" class="portfolio">
+    <h2>Proyectos Destacados</h2>
+    <div class="grid">
+      <div class="item">Proyecto A</div>
+      <div class="item">Proyecto B</div>
+      <div class="item">Proyecto C</div>
+      <div class="item">Proyecto D</div>
+    </div>
+  </section>
+
+  <section id="testimonios" class="testimonios">
+    <h2>Lo que dicen nuestros clientes</h2>
+    <blockquote>"Es una estafa >:["</blockquote>
+    <cite>– Tony.c</cite>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <form id="formulario">
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Correo electrónico" required />
+      <textarea placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="estado-formulario"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
